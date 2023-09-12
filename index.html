@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags e Atributos HTML</title>
+</head>
+<body bgcolor="#680600">
+
+    <header>
+        <font color="#FFF">
+            <a name="inicio"></a>
+            <nav>
+                <h3 align="right">Navegação</h3>
+                <p align="right">
+                    <a href="#tags">
+                        Tags
+                    </a>
+                </p>
+                <p align="right">    
+                    <a href="#atributos">
+                        Atributos  
+                    </a>
+                    <hr size="1">
+                </p>
+            </nav>
+        </font>
+    </header>
+
+    <font color="#FFF">
+        <h1 align ="center">Tags e Atributos HTML</h1>
+        <hr>
+        <section>
+            <h2>
+                Introdução
+            </h2>
+            <font size="4">
+            <p>
+                Tags simples no HTML são elementos 
+                usados para estruturar e formatar 
+                conteúdo na web. Exemplos incluem 
+                <b>&lt;p&gt;</b> para parágrafos, <b>&lt;h1&gt;</b> a <b>&lt;h6&gt;</b>
+                para títulos, <b>&lt;a&gt;</b> para links e
+                <b>&lt;img&gt;</b> para imagens. Essas tags são 
+                envolvidas por <b>&lt; &gt;</b> e podem conter 
+                atributos para configurar propriedades, 
+                como o atributo "src" em <b>&lt;img&gt;</b> para 
+                definir a fonte da imagem. Atributos em tags HTML 
+                personalizam elementos. 
+                Exemplos incluem src para definir a fonte da imagem 
+                em <b>&lt;img&gt;</b> e "href" para links em <b>&lt;a&gt;</b>. 
+                Atributos controlam comportamento e aparência, 
+                tornando páginas web mais 
+                dinâmicas e acessíveis HTML permite ajustar o estilo de texto, 
+                usando atributos como "color" para a cor e "size" para o tamanho
+                dentro da tag <b>&lt;font&gt;</b>.
+                <br>
+                As tags simples com fechamento em HTML são elementos que possuem 
+                uma tag de abertura e uma tag de fechamento correspondente, envolvendo 
+                o conteúdo que deseja ser afetado. Por exemplo, a tag <b>&lt;p&gt;</b> é usada para criar 
+                parágrafos e deve ser fechada com <b>&lt;/p&gt;</b>. Outros exemplos incluem <b>&lt;a&gt;</b> para 
+                links e <b>&lt;li&gt;</b> para itens de lista. O conteúdo dentro dessas tags é formatado ou 
+                estruturado de acordo com as propriedades definidas na tag de abertura. Essas 
+                tags com fechamento são essenciais para organizar e apresentar o conteúdo de 
+                forma clara e semântica em páginas da web.
+            </p>
+        </font>
+        </section>
+        <hr>
+        <p align="center"><img border="3px solid #FFF" src="html.png"></p>
+    </font>
+
+    <font color="#FFF">
+        <br>
+        <hr>
+        <h2 align ="center">Tags</h2>
+        <a name="tags"></a>
+        <hr width="40%">
+        <section>
+            <h3>
+                Tags simples que não nescessitam de fechamento.
+            </h3>
+            <font size="4">
+            <p>
+                Exemplos.<br>
+                <b>&lt;area&gt;</b>: Define uma área de imagem sensível em um mapa de imagem.<br>
+                <b>&lt;base&gt;</b>: Especifica uma URL base para links relativos em uma página.<br>
+                <b>&lt;br&gt;</b>: Cria uma quebra de linha.<br>
+                <b>&lt;col&gt;</b>: Define propriedades para colunas em tabelas.<br>
+                <b>&lt;embed&gt;</b>: Incorpora conteúdo externo, como multimídia ou aplicativos.<br>
+                <b>&lt;hr&gt;</b>: Insere uma linha horizontal.<br>
+                <b>&lt;img&gt;</b>: Usada para incorporar imagens.<br>
+                <b>&lt;input&gt;</b>: Define um campo de entrada em um formulário.<br>
+                <b>&lt;link&gt;</b>: Vincula recursos externos, como folhas de estilo (CSS) ou ícones de favoritos.<br>
+                <b>&lt;meta&gt;</b>: Fornece informações de metadados sobre a página.<br>
+                <b>&lt;source&gt;</b>: Especifica múltiplas fontes de mídia para elementos <b>&lt;audio&gt;</b> e <b>&lt;video&gt;</b>.<br>
+                <b>&lt;track&gt;</b>: Define trilhas de legenda ou descrição para elementos <b>&lt;video&gt;</b> e <b>&lt;audio&gt;</b>.<br>
+                <b>&lt;wbr&gt;</b>: Indica um ponto de quebra opcional em texto.<br>
+                Essas tags são projetadas para cumprir funções específicas e não requerem uma tag de fechamento porque não contêm conteúdo interno.<br>
+            </p>
+            </font>
+        </section>
+        <section>
+            <h3>
+                Tags compostas que nescessitam de fechamento.
+            </h3>
+            <font size="4">
+            <p>
+                Exemplos.<br>
+                <b>&lt;a&gt;</b>: Define um link âncora.<br>
+                <b>&lt;p&gt;</b>: Define um parágrafo de texto.<br>
+                <b>&lt;div&gt;</b>: Cria uma divisão ou contêiner genérico para elementos.<br>
+                <b>&lt;span&gt;</b>: Utilizado para aplicar estilos ou atributos a partes específicas do texto.<br>
+                <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, 
+                <b>&lt;h5&gt;</b>, <b>&lt;h6&gt;</b>: Usadas para títulos e cabeçalhos, onde 
+                cada uma delas precisa ser fechada com a tag correspondente <b>&lt;/h1&gt;</b>, <b>&lt;/h2&gt;</b>, etc.<br>
+                <b>&lt;li&gt;</b>: Define um item de lista em uma lista ordenada (<b>&lt;ol&gt;</b>) ou não ordenada (<b>&lt;ul&gt;</b>).<br>
+                <b>&lt;ol&gt;</b>: Define uma lista ordenada.<br>
+                <b>&lt;ul&gt;</b>: Define uma lista não ordenada.<br>
+                <b>&lt;table&gt;</b>: Define uma tabela.<br>
+                <b>&lt;tr&gt;</b>: Define uma linha em uma tabela.<br>
+                <b>&lt;td&gt;</b>: Define uma célula de dados em uma tabela.<br>
+                <b>&lt;th&gt;</b>: Define uma célula de cabeçalho em uma tabela.<br>
+                <b>&lt;form&gt;</b>: Define um formulário HTML.<br>
+                <b>&lt;input&gt;</b>: Define um campo de entrada em um formulário.<br>
+                <b>&lt;textarea&gt;</b>: Define uma área de texto multilinha em um formulário.<br>
+                <b>&lt;button&gt;</b>: Cria um botão clicável.<br>
+            </p>
+            </font>
+        </section>
+        <hr width="65%">
+        <section>
+            <font size="4">
+                <p>
+                    Utilizar tags corretamente no HTML é fundamental para a construção de páginas 
+                    da web eficientes e acessíveis. A importância disso pode ser destacada por 
+                    diversos motivos:
+                <br>
+                <br>
+                <b>Semântica:</b> Tags apropriadas conferem significado ao conteúdo, facilitando 
+                    a interpretação por parte dos motores de busca e leitores de tela, melhorando a 
+                    acessibilidade.
+                <br>
+                <br>
+                <b>Organização:</b> As tags estruturam o conteúdo, tornando-o mais legível e 
+                    organizado para desenvolvedores e designers, o que facilita a manutenção e 
+                    colaboração em projetos.
+                <br>
+                <br>
+                <b>Estilo e Layout:</b> Tags adequadas servem como pontos de ancoragem para 
+                    aplicação de estilos CSS, permitindo um controle preciso sobre a aparência da 
+                    página.
+                <br>
+                <br>
+                <b>Compatibilidade:</b> O uso correto de tags garante que o site seja renderizado 
+                    de forma consistente em diferentes navegadores e dispositivos.
+                <br>
+                <br>
+                <b>Acessibilidade:</b> Tags apropriadas e atributos como o "alt" em imagens 
+                    tornam a web mais inclusiva, garantindo que pessoas com deficiências visuais 
+                    possam compreender e interagir com o conteúdo.
+                <br>
+                <br>
+                <b>SEO:</b> Utilizar as tags corretas e fornecer informações precisas por meio 
+                    delas pode melhorar o ranking do site nos resultados de mecanismos de busca.
+                <br>
+                <br>
+                <b>Validação:</b> Páginas que utilizam tags corretamente são mais propensas a 
+                    passar na validação HTML, garantindo que não haja erros ou problemas no código.
+                <br>
+                <br>
+                    Portanto, o uso adequado de tags não é apenas uma boa prática, mas uma parte 
+                    essencial da criação de sites de alta qualidade, acessíveis e compatíveis com 
+                    padrões da web.
+                </p>
+            </font>
+        </section>
+        <section>
+            <hr>
+            <h2 align ="center">Atributos em HTML</h2>
+            <a name="atributos"></a>
+            <hr width="20%">
+            <font size="4">
+                <p align ="center">
+                    Os atributos em HTML são instruções que podem ser adicionadas às tags para personalizar
+                    o comportamento, aparência e funcionalidade dos elementos em uma página da web. Eles 
+                    fornecem informações adicionais sobre como um elemento deve ser tratado ou exibido. 
+                    Alguns atributos comuns incluem "src" para especificar a origem de recursos, "alt" para 
+                    fornecer texto alternativo em imagens para acessibilidade, "href" para definir o destino 
+                    de links e "class" para aplicar estilos CSS. Os atributos desempenham um papel crucial 
+                    na criação de páginas da web acessíveis, interativas e bem estruturadas, permitindo um 
+                    controle mais preciso sobre o conteúdo e o design.
+                </p>
+                <hr>
+                <h2 align ="center">Exemplos de atributos</h2>
+                <hr width="20%">
+                <p>
+                    <b>id:</b> Define um identificador único para um elemento.<br>
+                    <br>
+                    <b>class:</b> Especifica uma ou mais classes para um elemento, permitindo a aplicação de estilos CSS.<br>
+                    <br>
+                    <b>style:</b> Permite a definição de estilos CSS inline para um elemento.<br>
+                    <br>
+                    <b>src:</b> Especifica a origem de recursos, como imagens ou scripts.<br>
+                    <br>
+                    <b>href:</b> Define o destino de links em elementos como <b>&lt;a&gt;</b> e <b>&lt;link&gt;</b>.<br>
+                    <br>
+                    <b>alt:</b> Fornece um texto alternativo para elementos como <b>&lt;img&gt;</b>, usado para acessibilidade.<br>
+                    <br>
+                    <b>title:</b> Adiciona um título ou dica de ferramenta para um elemento.<br>
+                    <br>
+                    <b>width e height:</b> Definem as dimensões de elementos como imagens e células de tabela.<br>
+                    <br>
+                    <b>colspan e rowspan:</b> Usados em células de tabela para mesclar colunas ou linhas.<br>
+                    <br>
+                    <b>disabled:</b> Desabilita a interação com um elemento, como um botão ou campo de entrada.<br>
+                    <br>
+                    <b>readonly:</b> Define um campo de entrada como somente leitura.<br>
+                    <br>
+                    <b>value:</b> Define o valor padrão para campos de entrada.<br>
+                    <br>
+                    <b>placeholder:</b> Exibe um texto de exemplo em campos de entrada.<br>
+                    <br>
+                    <b>checked:</b> Define um campo de seleção como marcado por padrão.<br>
+                    <br>
+                    <b>required:</b> Indica que um campo de entrada é obrigatório.<br>
+                    <br>
+                    <b>aria-*:</b> Atributos usados para melhorar a acessibilidade em elementos, como aria-label e aria-describedby.<br>
+                    <br>
+                    <b>target:</b> Especifica como o link deve ser aberto (por exemplo, em uma nova janela ou na mesma janela)<br>
+                    <br>
+                    <b>rel:</b> Define o relacionamento do link com a página atual, usado principalmente com tags <b>&lt;link&gt;</b> e <b>&lt;a&gt;</b><br>
+                    <br>
+                    <b>type:</b> Especifica o tipo de conteúdo em elementos como <b>&lt;script&gt;</b> e <b>&lt;style&gt;</b><br>
+                    <br>
+                    <b>for:</b> Vincula um rótulo a um campo de entrada em um formulário<br>
+                    <br>
+                    <b>name:</b> Define o nome de elementos, geralmente usado com campos de entrada em formulários<br>
+                    <br>
+                    <b>placeholder:</b> Exibe um texto de exemplo em campos de entrada<br>
+                    <br>
+                    <b>max e min:</b> Estabelecem limites para valores em campos de entrada numéricos<br>
+                    <br>
+                    <b>step:</b> Define o incremento usado em campos de entrada numéricos<br>
+                    <br>
+                    <b>download:</b> Indica que um link deve fazer o download de um recurso em vez de navegar para ele<br>
+                    <br>
+                    <b>autofocus:</b> Define que um campo de entrada deve receber automaticamente o foco quando a página é carregada<br>
+                    <br>
+                    <b>autocomplete:</b> Controla se a autocompletar deve estar habilitada ou desabilitada em campos de entrada de formulário<br>
+                    <br>
+                    <b>contenteditable:</b> Permite que um elemento seja editável pelo usuário<br>
+                    <br>
+                    <b>hidden:</b> Oculta um elemento na página<br>
+                    <br>
+                    <b>media:</b> Define as condições de mídia nas quais um estilo CSS ou script JavaScript deve ser aplicado, geralmente usado com a tag <b>&lt;link&gt;</b><br>
+                    <br>
+                    <hr>
+                    Existe muitos outros atributos que possam ou não ser exclusivos de algumas tags. Estes são apenas alguns exemplos,
+                    contudo a sua utilização tem se tornado cada vez menos comun com o uso do CSS.
+                    <hr>
+                </p>
+            </font>
+        </section>
+    </font>
+
+    <footer style="background-color: #000;">
+        <br>
+        <br>
+        <font color="#FFF" size="5"><p align="center">Bruno da Silva Mota</p></font>
+        <br>
+        <br>
+        <a href="#inicio">
+            Voltar ao Inicio
+        </a>
+        <font color="#FFF"><p align="center">Unipiaget - ADS - 2023 - Desenvolvimento na web</p></font>
+        <br>
+    </footer>
+</body>
+</html>
