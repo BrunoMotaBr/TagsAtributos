@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 align="center">
+        Olá seja bem vindo ao formulario 100% Html 5
+    </h1>
+
+    <form name="cadastro" action="index.html" method="post">
+        <h2>Formulario de cadastro</h2>
+        <fieldset form="cadastro">
+            <fieldset  form="cadastro" name="dadospessoais" title="Dados Pessoais">
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" size="25" maxlength="50">
+                <br>
+                <br>
+                <label for="celular">Número: </label>
+                <input type="number" name="celular" id="celular" size="11" maxlength="11">
+                <br>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" size="25" maxlength="25">
+                <br>
+            </fieldset>
+
+            <fieldset  form="cadastro" name="sexo" title="Sexo">
+                <legend>Sexo</legend>
+                <label for="sexo">Masculino: </label>
+                <input type="radio" id="sexo" name="sexo" value="m"> 
+                <br>
+                <label for="sexo">Feminino: </label>
+                <input type="radio" id="sexo" name="sexo" value="f"> 
+                <br>
+                <label for="sexo">Prefiro não dizer: </label>
+                <input type="radio" id="sexo" name="sexo" value="n"> 
+            </fieldset>
+
+            <fieldset form="cadastro" name="endereco" title="Endereço">
+                <legend>Endereço</legend>
+                <label for="cep">Cep: </label>
+                <input type="number" id="cep" maxlength="8" name="cep">
+                <label for="logradouro">Logradouro: </label>
+                <input type="number" id="logradouro" size="25" maxlength="75" name="logradouro">
+                <br>
+                <br>
+                <label for="numero">Número: </label>
+                <input type="number" id="numero" size="5" maxlength="5" name="numero">
+                <label for="bairro">Bairro: </label>
+                <input type="text" id="bairro" size="25" maxlength="50" name="bairro">
+                <label for="cidade">Cidade: </label>
+                <input type="text" id="cidade" size="25" maxlength="50" name="cidade">
+                <label for="estado">Estado: </label>
+                <select name="estados">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </fieldset>
+
+            <br>
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha">
+            <label for="validasenha">Repita a senha: </label>
+            <input type="text" name="validasenha" id="validasenha">
+            <br>
+            <br>
+            <input type="submit" name="cadastrar" id="cadastrar" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
